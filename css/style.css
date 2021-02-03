@@ -17,6 +17,7 @@
   max-width: 700px;
   margin: auto;
   background-color: yellow;
+  text-align: center;
 }
   /* /JUMBOTRON */
 /* /HEADER */
@@ -25,9 +26,16 @@ h2{
   text-align: center;
 }
 .main_photo{
-  height: 200px;
+  height: 250px;
   background-color: red;
   margin-bottom: 30px;
-  }
 }
 /* /SECTION_1 */
+/* SECTION_2 */
+.section_2{
+  background-color: #1abc9c;
+}
+.section_2 .button_sc2{
+  text-align: center;
+}
+/* /SECTION_2 */
