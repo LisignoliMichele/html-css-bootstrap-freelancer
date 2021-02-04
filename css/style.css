@@ -20,7 +20,11 @@
 .text_blue{
   color: #2c3e50;
 }
-
+/* scroll-behavior effect */
+html{
+  scroll-behavior: smooth;
+}
+/* /scroll-behavior effect */
 
 body{
   font-family: 'Montserrat', sans-serif;
@@ -49,7 +53,7 @@ h2{
 .star_spacer::after{
   content: "";
   width: 100%;
-  max-width: 120px;
+  max-width: 100px;
   margin: 0 10px 10px 10px;
   height: 4px;
   background-color: white;
@@ -62,6 +66,9 @@ h2{
 }
 /* header */
 .header_top{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   padding: 20px 0;
   font-weight: bold;
 }
@@ -70,15 +77,32 @@ h2{
   display: inline-block;
   margin-right: 30px;
 }
+.header_top a:hover{
+  color: #1abc9c;
+}
+.header_top ul{
+  margin-top: 5px;
+}
 .header_top a{
   text-decoration: none;
   color:#ffffff;
 }
 .header_top .logo{
-  font-size: 35px;
+  font-size: 40px;
 }
+.button_phone{
+  padding: 10px 5px;
+  background-color: #1abc9c;
+  border-radius: 5px;
+  border: 1px solid #1abc9c;;
+  color: #fff;
+}
+.button_phone i{
+  margin-left: 5px;
+}
+/* banner */
 .header_banner {
-  padding: 60px 0;
+  padding: 130px 0;
 }
 .header_banner p{
   font-weight: bold;
@@ -109,14 +133,12 @@ section {
   background-color: rgba(26, 188, 156, 0.9);
   display: none;
 }
-.text{
+.add_portfolio{
   color: white;
   font-size: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -151,6 +173,19 @@ textarea{
   width: 100%;
   border: none;
   border-bottom: 1px solid black;
+}
+.button_form{
+  padding: 20px 30px;
+  font-size: 20px;
+  background-color: #1abc9c;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-top: 60px;
+}
+.button_form:hover{
+  background-color: #159a80;
+  border-color: #148f77
 }
 /* Footer */
 .footer_top {
