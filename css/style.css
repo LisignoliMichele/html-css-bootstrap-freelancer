@@ -25,6 +25,13 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+p{
+  font-size: 20px;
+}
+h4{
+  font-size: 25px;
+  font-weight: 600;
+}
 h1{
   font-size: 60px;
   font-weight: bold;
@@ -74,7 +81,6 @@ h2{
   padding: 60px 0;
 }
 .header_banner p{
-  font-size: 20px;
   font-weight: bold;
 }
 .header_banner img{
@@ -150,10 +156,40 @@ textarea{
 .footer_top {
   padding: 40px 0;
 }
+.footer_top li{
+  list-style: none;
+  display:inline-block;
+  margin: 0 5px;
+}
+.social a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.social .social_box{
+  display:inline-block;
+  height: 50px;
+  width: 50px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  position: relative;
+}
+.social i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .footer_bottom {
   padding: 20px 0;
 }
-
+.social a:hover .social_box{
+  background-color: #fff;
+  color: #000;
+}
+.about_freelancer a{
+  color: #1abc9c;
+}
 /* Responsive */
 @media screen and (max-width: 992px) {
   .container__small {
