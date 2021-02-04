@@ -136,6 +136,16 @@ section {
   background-color: #fff;
   color: #000;
 }
+/* contact me */
+input,
+textarea{
+  display: block;
+  font-size: 25px;
+  padding: 30px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
 /* Footer */
 .footer_top {
   padding: 40px 0;
