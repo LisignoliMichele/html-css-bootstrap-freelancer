@@ -1,57 +1,48 @@
-/* HEADER */
-  /* NAV */
-.nav-right{
-  text-align: right
+/* mix */
+.container_small {
+  max-width: 800px;
+  width: 70%;
+  margin: auto;
 }
-.nav{
-  color: white;
-  padding: 20px 0;
+.bg_primary {
   background-color: #2c3e50;
 }
-  /* /NAV */
-  /* JUMBOTRON */
-.jumbotron{
+.bg_primary-400 {
+  background-color: #1a252f;
+}
+.bg_secondary {
   background-color: #1abc9c;
 }
-.jumbotron .content{
-  max-width: 700px;
-  margin: auto;
-  background-color: yellow;
-  text-align: center;
+.text_white {
+  color: #fff;
 }
-  /* /JUMBOTRON */
-/* /HEADER */
-/* SECTION_1 */
-h2{
-  text-align: center;
+.header_top{
+  padding: 20px 0;
 }
-.main_photo{
-  height: 250px;
-  background-color: red;
-  margin-bottom: 30px;
+.header_banner {
+  padding: 60px 0;
 }
-/* /SECTION_1 */
-/* SECTION_2 */
-.section_2{
-  background-color: #1abc9c;
+/* sections */
+section {
+  padding: 40px 0;
 }
-.section_2 .button_sc2{
-  text-align: center;
+.box_portfolio {
+  margin-top: 25px;
 }
-/* /SECTION_2 */
-/* SECTION_3 */
-.button_sc3{
-  margin-left: 0;
+.box_portfolio__image {
+  width: 100%;
 }
-/* /SECTION_3 */
-/* FOOTER */
-.footer_top{
-  background-color: #3a546d;
+/* Footer */
+.footer_top {
+  padding: 40px 0;
 }
-.footer_bottom{
-background-color: #2c3e50;
+.footer_bottom {
+  padding: 20px 0;
 }
-.copyright{
-  text-align: center;
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+  .container__small {
+    width: 90%;
+  }
 }
-/* /FOOTER */
